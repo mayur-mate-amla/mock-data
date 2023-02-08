@@ -1,0 +1,133 @@
+{
+  "navigation": {
+    "meta": {
+      "count": 4,
+      "next_page": null,
+      "previous_page": null
+    },
+    "data": {
+      "navigation": [
+        {
+          "meta": {
+            "id": 222389
+          },
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "meta": {
+            "id": 222390
+          },
+          "label": "About",
+          "url": "/about"
+        },
+        {
+          "meta": {
+            "id": 222391
+          },
+          "label": "Products",
+          "url": "/products"
+        },
+        {
+          "meta": {
+            "id": 222393
+          },
+          "label": "Contact",
+          "url": "/contact"
+        },
+        {
+          "meta": {
+            "id": 222396
+          },
+          "label": "Dynamic Page",
+          "url": "/dynamic-page"
+        }
+      ]
+    }
+  },
+  "dynamic-page": {
+    "sections": {
+      "component_id": {
+        "component": "banner",
+        "component_blocks": {
+          "block_id": {
+            "component_id": {
+              "component": "slide",
+              "settings": {
+                "heading": "Slide One",
+                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+                "image": "https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg",
+                "desktop_image": "https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg",
+                "text_color": "#ffffff",
+                "heading_font_size": 16,
+                "link_text": "Shop Now",
+                "url": "shopify://pages/black-friday-2022",
+                "hearts": "",
+                "hearts_desk": ""
+              }
+            },
+            "component_id_2": {
+              "component": "slide",
+              "settings": {
+                "heading": "Slide Two",
+                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+                "image": "https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg",
+                "desktop_image": "https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg",
+                "text_color": "#ffffff",
+                "heading_font_size": 16,
+                "link_text": "Shop Now",
+                "url": "shopify://pages/black-friday-2022",
+                "hearts": "",
+                "hearts_desk": ""
+              }
+            },
+            "component_id_3": {
+              "component": "slide",
+              "settings": {
+                "heading": "Slide Three",
+                "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+                "image": "https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg",
+                "desktop_image": "https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg",
+                "text_color": "#ffffff",
+                "heading_font_size": 16,
+                "link_text": "Shop Now",
+                "url": "shopify://pages/black-friday-2022",
+                "hearts": "",
+                "hearts_desk": ""
+              }
+            }
+          }
+        },
+        "block_order": ["block_id_1", "block_id_2"]
+      },
+      "component_id_2": {
+        "component": "multicolumn",
+        "component_blocks": {
+          "block_id": {
+            "component_id": {
+              "component": "column",
+              "settings": {
+                "image": "https://mdbcdn.b-cdn.net/img/new/avatars/5.webp",
+                "title": "Luxire Shorts",
+                "text": "View Details",
+                "link_label": "Luxire Shorts",
+                "link": "shopify://collections/new-x-shorts"
+              }
+            },
+            "component_id_2": {
+              "component": "column",
+              "settings": {
+                "image": "https://mdbcdn.b-cdn.net/img/new/avatars/2.webp",
+                "title": "Lorem Ipsum",
+                "text": "View Details",
+                "link_label": "Lorem Ipsum",
+                "link": "shopify://collections/new-x-shorts"
+              }
+            }
+          },
+          "block_order": ["block_id_1", "block_id_2"]
+        }
+      }
+    }
+  }
+}
